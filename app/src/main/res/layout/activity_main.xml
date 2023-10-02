@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:gravity="center"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="284dp"
+        android:layout_height="75dp"
+        android:src="@drawable/titulo"
+         />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:useDefaultMargins="true"
+        android:columnCount="4"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
+
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/stark"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_rowWeight="1"-->
+        <!--            android:scaleType="fitCenter"-->
+        <!--            android:layout_margin="4dp"-->
+        <!--            android:src="@drawable/Stark" />-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/arryn"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_rowWeight="1"-->
+        <!--            android:scaleType="fitCenter"-->
+        <!--            android:layout_margin="4dp"-->
+        <!--            android:src="@drawable/Arryn" />-->
+        <!--        <ImageView-->
+        <!--            android:id="@+id/lannister"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_rowWeight="1"-->
+        <!--            android:scaleType="fitCenter"-->
+        <!--            android:layout_margin="4dp"-->
+        <!--            android:src="@drawable/Lannister" />-->
+        <!--        <ImageView-->
+        <!--            android:id="@+id/tyrell"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_rowWeight="1"-->
+        <!--            android:scaleType="fitCenter"-->
+        <!--            android:layout_margin="4dp"-->
+        <!--            android:src="@drawable/Tyrell" />-->
+        <!--        <ImageView-->
+        <!--            android:id="@+id/tarth"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_rowWeight="1"-->
+        <!--            android:scaleType="fitCenter"-->
+        <!--            android:layout_margin="4dp"-->
+        <!--            android:src="@drawable/Tarth" />-->
+        <!--        <ImageView-->
+        <!--            android:id="@+id/baratheon"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_rowWeight="1"-->
+        <!--            android:scaleType="fitCenter"-->
+        <!--            android:layout_margin="4dp"-->
+        <!--            android:src="@drawable/Baratheon" />-->
+        <!--        <ImageView-->
+        <!--            android:id="@+id/mormont"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_rowWeight="1"-->
+        <!--            android:scaleType="fitCenter"-->
+        <!--            android:layout_margin="4dp"-->
+        <!--            android:src="@drawable/Mormont" />-->
+        <!--        <ImageView-->
+        <!--            android:id="@+id/targaryen"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_rowWeight="1"-->
+        <!--            android:scaleType="fitCenter"-->
+        <!--            android:layout_margin="4dp"-->
+        <!--            android:src="@drawable/Targaryen" />-->
+        <!--        <ImageView-->
+        <!--            android:id="@+id/arryn2"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_rowWeight="1"-->
+        <!--            android:scaleType="fitCenter"-->
+        <!--            android:layout_margin="4dp"-->
+        <!--            android:src="@drawable/Arryn" />-->
+        <!--        <ImageView-->
+        <!--            android:id="@+id/baratheon2"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_rowWeight="1"-->
+        <!--            android:scaleType="fitCenter"-->
+        <!--            android:layout_margin="4dp"-->
+        <!--            android:src="@drawable/Baratheon" />-->
+        <!--        <ImageView-->
+        <!--            android:id="@+id/lannister2"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_rowWeight="1"-->
+        <!--            android:scaleType="fitCenter"-->
+        <!--            android:layout_margin="4dp"-->
+        <!--            android:src="@drawable/Lannister" />-->
+        <!--        <ImageView-->
+        <!--            android:id="@+id/mormont2"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_rowWeight="1"-->
+        <!--            android:scaleType="fitCenter"-->
+        <!--            android:layout_margin="4dp"-->
+        <!--            android:src="@drawable/Mormont" />-->
+        <!--        <ImageView-->
+        <!--            android:id="@+id/stark2"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_rowWeight="1"-->
+        <!--            android:scaleType="fitCenter"-->
+        <!--            android:layout_margin="4dp"-->
+        <!--            android:src="@drawable/Stark" />-->
+        <!--        <ImageView-->
+        <!--            android:id="@+id/targaryen2"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_rowWeight="1"-->
+        <!--            android:scaleType="fitCenter"-->
+        <!--            android:layout_margin="4dp"-->
+        <!--            android:src="@drawable/Targaryen" />-->
+        <!--        <ImageView-->
+        <!--            android:id="@+id/tarth2"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_rowWeight="1"-->
+        <!--            android:scaleType="fitCenter"-->
+        <!--            android:layout_margin="4dp"-->
+        <!--            android:src="@drawable/Tarth" />-->
+        <!--        <ImageView-->
+        <!--            android:id="@+id/tyrell2"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_rowWeight="1"-->
+        <!--            android:scaleType="fitCenter"-->
+        <!--            android:layout_margin="4dp"-->
+        <!--            android:src="@drawable/Tyrell" />-->
+
+
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/buttonRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/design_default_color_error"
+        android:text="Reiniciar Jogo" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progressTint="#B00020"/>
+
+</LinearLayout>
